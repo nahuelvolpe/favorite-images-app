@@ -1,7 +1,7 @@
 {
   "name": "favorite-images-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,12 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@radix-ui/themes": "^2.0.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/lab": "^5.0.0-alpha.156",
+    "@mui/material": "^5.15.0",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.8",
     "@tanstack/react-query": "^5.13.4",
     "axios": "^1.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
     "react-router-dom": "^6.21.0",
+    "styled-components": "^6.1.1",
     "zustand": "^4.4.7"
   },
   "devDependencies": {
